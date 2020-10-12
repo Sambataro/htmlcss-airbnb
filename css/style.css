@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* immagini città */
+
+#overlay {
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.roma {
+  background-image: url(../img/roma.jpg);
+}
+
+.napoli {
+  background-image: url(../img/napoli.jpg);
+}
+
+.milano {
+  background-image: url(../img/milano.jpg);
+}
+/*/ immagini città */
+
+/* css immagine e scritta città */
+
+.city {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  position: absolute;
+}
+/*/ css immagine e scritta città */
